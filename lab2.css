@@ -1,0 +1,322 @@
+body{
+margin: 0 auto;
+}
+header{
+display: block;
+width: 100%;
+height: 60px;
+padding: 5px;
+background: #EAEAEA;
+font-weight: bold;
+font-size:25px;
+}
+header p{margin: 0 auto;}
+.t1left{
+background: #C8FC98;
+width: 200px;
+float: left;
+font-size: 13px;
+}
+.t1left p{
+margin-top: 0;
+line-height: 25px;
+margin-left: 4px;
+}
+footer{
+background: black;
+width: 100%;
+height: 25px;
+text-align: center;
+clear: both;
+}
+footer a{
+color: yellow;
+}
+.t1center p{
+font-size: 13px;
+margin-top: 0;
+line-height: 25px;
+margin-left: 5px;
+}
+.t2left{
+width:25%;
+background: #C8FC98;
+float: left;
+}
+.t2left p{
+margin-top: 0;
+line-height: 25px;
+margin-left: 4px;
+font-size: 13px;
+}
+.t2center p{
+font-size: 13px;
+margin-top: 0;
+line-height: 25px;
+margin-left: 4px;
+}
+.t2right{
+background: #FDE95E;
+width: 200px;
+float: right;
+font-size: 13px;
+}
+
+.t2right p{
+margin-top: 0;
+line-height: 25px;
+margin-left: 4px;
+}
+.t3center{
+margin: 0 auto;
+width: 500px;
+background: blue;
+color: white;
+font-weight: 700;
+font-size: 12px;
+}
+.t4center{
+margin: 0 auto;
+max-width: 500px;
+background: blue;
+color: white;
+font-weight: 700;
+font-size: 12px;
+}
+.t5first{
+background: forestgreen;
+margin: 0 auto;
+width: 500px;
+color: white;
+font-weight: 700;
+font-size: 12px;
+}
+.t5second{
+background: blue;
+margin: 0 auto;
+width: 500px;
+font-weight: 700;
+font-size: 12px;
+padding: 50px;
+color: white;
+}
+.t6first{
+margin: 0 auto;
+width: 500px;
+font-size: 12px;
+}
+.t6second{
+margin: 0 auto;
+max-width: 500px;
+font-size: 12px;
+}
+.t6second p{
+padding: 50px;
+border: 7px solid blue;
+}
+.t7first{
+width: 150px;
+height: 100px;
+background: blueviolet;
+color: white;
+position: static;
+}
+.t7second{
+width: 150px;
+height: 100px;
+background: darkred;
+color: white;
+position: relative;
+}
+.t7second p{margin-top: 0px;}
+.t7third{
+width: 150px;
+height: 100px;
+background: peru;
+color: white;
+position: relative;
+margin-top: -40px;
+margin-left: 40px;
+}
+.t7fourth{
+width: 600px;
+height: 400px;
+background: indianred;
+color: white;
+position: relative;
+}
+.t7fifth{
+width: 300px;
+height: 200px;
+background: indigo;
+color: white;
+position: absolute;
+right: 0px;
+top: 100px;
+}
+.t7sixth{
+width: 150px;
+height: 100px;
+background: green;
+color: white;
+position: fixed;
+right: 0px;
+bottom: 0px;
+}
+.t8main{
+margin: 8px;
+background: aqua;
+}
+aside{
+width: 200px;
+float: left;
+background: bisque;
+}
+.t8text{
+background: darkgrey;
+margin-left: 200px;
+}
+.gr8{
+position: absolute;
+height: 60px;
+width: 100%;
+bottom: 0px;
+left:0px;
+background: limegreen;
+}
+
+.t9center{
+margin: 0 auto;
+width: 600px;
+background: blue;
+color: white;
+font-weight: 700;
+font-size: 12px;
+}
+.t9center img{
+float: right;
+padding-left: 20px;
+padding-bottom: 20px;
+}
+.t10first{
+width: 200px;
+background: aquamarine;
+height: 100px;
+float: left;
+margin: 20px;
+}
+.t10second{
+background: bisque;
+clear: left;
+}
+.t11main{
+margin: 8px;
+background: aqua;
+border: 1px solid green;
+overflow: auto;
+}
+.t11main img{
+float: right;
+}
+.t12main{
+margin: 8px;
+background: aqua;
+outline: 1px solid green;
+}
+.t12text{
+background: darkgrey;
+margin-left: 200px;
+}
+.t13text{
+background: darkgrey;
+margin-left: 200px;
+overflow:auto;
+}
+.t13text img{
+float: right;
+width: 40%;
+}
+.t13text>.cl{
+clear: right;
+}
+.t14main{
+margin: 8px;
+background: aqua;
+outline: 1px solid green;
+}
+
+
+.ul14{
+width: 300px;
+float: left;
+background: bisque;
+}
+.t14text{
+background: darkgrey;
+margin-left: 300px;
+font-size: 15px;
+line-height: 18px;
+}
+
+.t15block{
+display: inline-block;
+float: left;
+background: aquamarine;
+width: 200px;
+height: 100px;
+margin: 15px;
+}
+.t15line{
+clear: left;
+background: bisque;
+width: 100%;
+}
+.t16main{
+margin: 8px;
+background: aqua;
+outline: 1px solid green;
+}
+.ul16{
+width: 300px;
+float: left;
+background: bisque;
+}
+.t16text{
+background: darkgrey;
+margin-left: 300px;
+font-size: 15px;
+line-height: 18px;
+}
+@media (max-device-width: 600px){
+    .t14main{
+    padding-top: 1%;
+    }
+    .ul14{
+    width: 100%;
+    list-style-type: none;
+    float: none;
+    padding-bottom 1%;
+
+    }
+    .ul14>ul>li{
+
+      display: inline;
+
+    }
+    .t14text{
+
+    margin-left: 0px;
+    }
+    .t16main{
+    padding-top: 0px;
+    float: none;
+    }
+    .ul16{
+    width: 200px;
+    }
+    .t16text{
+    width: 450px;
+    margin-left: 0px;
+    clear: left;
+    }
+}
